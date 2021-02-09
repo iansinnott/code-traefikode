@@ -4,6 +4,14 @@
 
 🍴: Forked from <https://github.com/securisec/code-traefikode>. I had some issues with the original plugin so I created this fork mainly to comment out or remove some code.
 
+Todo:
+
+- [ ]: Provide documentation on various commands when using `gh` (not sure what the non-vim name for this command is).
+- [ ]: Syntax highlight variable names differently. The thing is, Traefik var names are positional, not syntactical. This means it should be fairly easy to devise some hardcoded highlighting rules based on a string between two periods after some prefix.
+- [ ]: Highlight the string `traffic` as an error. I have been bitten by this one before... speaking of which, I really wish they had named the project something other than a misspelling of a common word.
+
+Initial readme follows.
+
 ---
 
 Simple [Traefik](https://docs.traefik.io/routing/providers/docker/) snippets and autocomplete for VS Code.
