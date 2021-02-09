@@ -2,13 +2,19 @@
 	"name": "traefikode",
 	"displayName": "traefikode",
 	"description": "traefik auto complete",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"author": {
 		"name": "Hapsida @securisec"
 	},
-	"publisher": "securisec",
+	"contributors": [
+		{
+			"name": "Ian Sinnott",
+			"url": "https://github.com/iansinnott"
+		}
+	],
+	"publisher": "iansinnott",
 	"repository": {
-		"url": "https://github.com/securisec/code-traefikode"
+		"url": "https://github.com/iansinnott/code-traefikode"
 	},
 	"engines": {
 		"vscode": "^1.42.0"
