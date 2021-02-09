@@ -3,7 +3,7 @@
 	"displayName": "traefikode",
 	"description": "traefik auto complete",
 	"version": "0.0.12",
-	"icon": "./resources/traefik.square.png",
+	"icon": "resources/traefik.square.png",
 	"author": {
 		"name": "Hapsida @securisec"
 	},
