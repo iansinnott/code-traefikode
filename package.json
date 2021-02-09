@@ -52,6 +52,7 @@
 	},
 	"main": "./out/extension.js",
 	"scripts": {
+		"build": "yarn compile",
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"lint": "eslint src --ext ts",
