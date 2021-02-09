@@ -2,7 +2,8 @@
 	"name": "traefikode",
 	"displayName": "traefikode",
 	"description": "traefik auto complete",
-	"version": "0.0.10",
+	"version": "0.0.11",
+	"icon": "./resources/traefik.square.png",
 	"author": {
 		"name": "Hapsida @securisec"
 	},
