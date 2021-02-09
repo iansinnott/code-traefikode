@@ -55,6 +55,7 @@
 	"scripts": {
 		"build": "yarn compile",
 		"package": "yarn build && vsce package",
+		"install-extension": "yarn package && echo '\nRun: $ code --install-extension traefikode-x.x.x.vsix\n\nReplace with the appropriate version.'",
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"lint": "eslint src --ext ts",
